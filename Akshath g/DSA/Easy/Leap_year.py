@@ -1,17 +1,10 @@
-def is_leap(year):
-    leap = False
-    
-    # Write your logic here
-    
-    if year % 100 == 0: 
-        leap = False
-    elif year % 4 == 0:
-        leap = True
-    if year % 400== 0:
-        leap = True
-            
-    
-    return leap
 
-year = int(input())
-print(is_leap(year))
+new_list = [1, 3, 5, 6, 7, 8]
+print()
+new_list[1]
+print(new_list[1:5])
+
+if new_list[1] < new_list[4]:
+    print("aaaa")
+
+# || 
